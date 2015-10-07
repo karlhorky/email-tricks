@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hide Images</title>
+  <style type="text/css">
+    #image {
+      max-height: 0;    /* Gmail*/
+      display: none;    /* Generic*/
+      mso-hide: all;    /* Outlook clients*/
+      overflow: hidden; /* Generic */
+      font-size: 0;     /* Be careful with this one, only use if absolutely required */
+    }
+  </style>
+</head>
+<body>
+<table align="center" cellpadding="0" cellspacing="0" width="100%" height="100%">
+  <tr>
+    <td align="center" valign="top" bgcolor="#ffffff" width="100%">
+      <!--[if !gte mso 9]><!---->
+        <img id="image" src="https://cdn.rawgit.com/karlhorky/email-tricks/d7305f38d29fed78fa85652e3a63e154dd8e8829/swu.png" width="200" height="200">
+      <!--<![endif]-->
+    </td>
+  </tr>
+</table>
+</body>
+</html>
