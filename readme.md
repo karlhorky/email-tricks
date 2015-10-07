@@ -1,6 +1,6 @@
 # Email Tricks
 
-* [Hide an image everywhere](hide-image.html)
+* [Hide an image everywhere](https://github.com/karlhorky/email-tricks/blob/master/hide-image/hide-image-original.html)
 
 ## Inliners
 
